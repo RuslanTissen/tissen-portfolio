@@ -1,0 +1,52 @@
+.header {
+	background-color: black;
+	border-bottom: 1px white solid;
+	.header__container {
+		max-width: 1500px;
+		margin-inline: auto;
+		height: fit-content;
+		color: white;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		background-color: black;
+		.header__container__imageBox {
+			flex: 1 1 44%;
+			display: grid;
+			place-items: center;
+			background-color: rgb(147, 169, 255);
+			img {
+				max-width: 80%;
+				height: 80%;
+				object-fit: cover;
+			}
+		}
+		.header__container__titleBox {
+			flex: 1 1 54%;
+			background-color: black;
+			font-family: "Antonio", sans-serif;
+			display: grid;
+			place-items: center;
+			.header__container__titleBox__container {
+				display: flex;
+				flex-direction: column;
+			padding: clamp(.5rem, 5vw, 2rem);
+
+				h1 {
+					text-transform: uppercase;
+					line-height: 110%;
+					font-size: clamp(3rem, 10vw, 7rem);
+					margin-bottom: 0;
+				}
+				mark {
+					background-color: transparent;
+					color: rgb(147,169,255);
+				}
+				h2{
+					font-family: 'Work Sans', sans-serif;
+					font-weight: 500;
+				}
+			}
+		}
+	}
+}
