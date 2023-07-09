@@ -1,0 +1,36 @@
+.links {
+	background-color: black;
+	.links__container {
+		max-width: 1500px;
+		height: fit-content;
+		margin-inline: auto;
+		display: flex;
+		flex-wrap: wrap;
+		gap: 1rem;
+		h2 {
+			flex: 1 1 100%;
+			color: white;
+			font-family: "Antonio", sans-serif;
+			font-size: clamp(3rem, 5vw, 5rem);
+			text-transform: uppercase;
+			text-align: center;
+			padding: clamp(2rem, 5vw, 5rem);
+			@media (min-width: 900px) {
+				flex: 20%;
+				text-align: start;
+			}
+		}
+		.links__container__links {
+			flex: 1 1 60%;
+			display: flex;
+			flex-wrap: wrap;
+			gap: clamp(1rem, 2vw, 2rem);
+			.links__container__links-img {
+				flex: 1 1 30%;
+				width: 100%;
+				height: clamp(10rem, 25vw, 25rem);
+				display: block;
+			}
+		}
+	}
+}

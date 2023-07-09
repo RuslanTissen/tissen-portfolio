@@ -1,5 +1,7 @@
 import './App.css';
+import Background from './components/background/Background';
 import Header from './components/header/Header';
+import Links from './components/links/Links';
 
 function App() {
 	return (
@@ -7,6 +9,9 @@ function App() {
 
 			<Header />
 
+			<Background />
+
+			<Links />
 
 		</div>
 	);
