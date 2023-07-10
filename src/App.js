@@ -3,6 +3,7 @@ import Background from './components/background/Background';
 import Facts from './components/facts/Facts';
 import Header from './components/header/Header';
 import Links from './components/links/Links';
+import Things from './components/things/Things.jsx';
 
 function App() {
 	return (
@@ -15,6 +16,8 @@ function App() {
 			<Links />
 
 			<Facts/>
+
+			<Things/>
 
 		</div>
 	);

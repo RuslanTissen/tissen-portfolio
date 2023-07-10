@@ -1,0 +1,40 @@
+.things {
+	.things__container {
+		max-width: 1500px;
+		height: fit-content;
+		margin-inline: auto;
+		display: flex;
+		flex-wrap: wrap;
+		padding: clamp(2rem, 5vw, 5rem);
+		.things__container__textBox {
+			flex: 1 1 100%;
+			h2 {
+				font-size: clamp(3rem, 5vw, 5rem);
+				font-family: "Antonio", sans-serif;
+				text-transform: uppercase;
+				color: white;
+			}
+			p {
+				color: rgb(147, 169, 255);
+				font-size: clamp(0.8rem, 2vw, 2rem);
+				font-weight: 600;
+			}
+		}
+		.things__container__imgBox {
+			flex: 1 1 100%;
+			display: flex;
+			flex-wrap: wrap;
+			gap: clamp(1rem, 2vw, 2rem);
+			.things__container__imgBox__imgCont {
+				flex: 1 1 48%;
+				width: 25%;
+				height: clamp(15rem, 25vw, 35rem);
+				img {
+					width: 100%;
+					height: inherit;
+					object-fit: cover;
+				}
+			}
+		}
+	}
+}
