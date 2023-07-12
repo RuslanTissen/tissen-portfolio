@@ -19,9 +19,9 @@ function Things() {
 				</div>
 				<div className="things__container__imgBox">
 					<div className='things__container__imgBox__imgCont'><img src={img1} alt="" /></div>
-					<div className='things__container__imgBox__imgCont'><img src={img2} alt="" /></div>
 					<div className='things__container__imgBox__imgCont'><img src={img3} alt="" /></div>
 					<div className='things__container__imgBox__imgCont'><img src={img4} alt="" /></div>
+					<div className='things__container__imgBox__imgCont'><img src={img2} alt="" /></div>
 				</div>
 			</div>
 		</div>
