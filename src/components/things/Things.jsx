@@ -10,8 +10,12 @@ function Things() {
 		<div className='things'>
 			<div className="things__container">
 				<div className="things__container__textBox">
-					<h2>Things I Like</h2>
-					<p>These are just some of the things that make me feel alive!</p>
+					<div className="things__container__textBox_h2">
+						<h2>Things I Like</h2>
+					</div>
+					<div className="things__container__textBox_p">
+						<p>These are just some of the things that make me feel alive!</p>
+					</div>
 				</div>
 				<div className="things__container__imgBox">
 					<div className='things__container__imgBox__imgCont'><img src={img1} alt="" /></div>
